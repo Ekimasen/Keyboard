@@ -2,28 +2,35 @@ html, body{
     font-size: 80%;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.15em;
-    background-image: linear-gradient(white, black);
+    background: url('../images/2.jpg');
+    background-size: cover;
 }
 #page{
     max-width: 920px;
     min-width: 720px;
     margin: 30px auto 30px auto;
     padding: 20px;
-    border: 4px double #000;
-    background-color: #ffffff;
+    border: 4px double #e8d9d9;
     max-height: 720px;
     min-height: 630px;
+    background-image: url('../images/1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background: rgb(7,0,6);
+background: linear-gradient(172deg, rgba(7,0,6,1) 0%, rgba(56,3,44,1) 32%);
 }
 #logo{
-    width: 150px;
-    margin: 10px auto 15px auto;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto 15px auto;
 }
 ul{
     width: 550px;
     padding: 20px;
     margin: 0px auto 0px auto;
-    border-top: 2px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 2px solid #e8d9d9;
+    border-bottom: 1px solid #e8d9d9;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -32,6 +39,7 @@ li{
     font-size: 15px;
     display: inline;
     margin: 0px 10px;
+    z-index: 1;
 }
 p{
     font-size: 15px;
@@ -39,20 +47,21 @@ p{
     width: 600px;
     margin: 20px auto 20px auto;
     font-weight: normal;
+    color: #f5f1f1;
 }
 .p1{
     margin-top: 80px;
     font-size: 19px;
+    z-index: 1;
 }
 a{
-    color:#000000;
+    color:#f5f1f1;
     text-transform: uppercase;
     text-decoration: none;
     padding: 6px 10px;
 }
 a:hover, a.on{
-    color:#cc3333;
-    background-color: #ffffff;
+    color:#f73636;
 }
 .img2{
     width: 600px;
@@ -61,6 +70,6 @@ a:hover, a.on{
     margin-bottom: 10px;
 }
 .logoimg{
-    width: 150px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
 }
