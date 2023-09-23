@@ -4,6 +4,7 @@ html, body{
     letter-spacing: 0.15em;
     background: url('../images/2.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #page{
     max-width: 920px;
