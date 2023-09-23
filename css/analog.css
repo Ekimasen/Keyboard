@@ -1,6 +1,6 @@
 html, body{
     font-size: 80%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Borgen', sans-serif;
     letter-spacing: 0.15em;
     background: url('../images/2.jpg');
     background-size: cover;
@@ -18,7 +18,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: bottom;
     background: rgb(7,0,6);
-background: linear-gradient(172deg, rgba(7,0,6,1) 0%, rgba(56,3,44,1) 32%);
+background: linear-gradient(172deg, rgba(7,0,6,1) 0%, rgb(0, 156, 173) 32%);
 }
 #logo{
     width: 250px;
@@ -42,7 +42,7 @@ li{
     z-index: 1;
 }
 p{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     width: 600px;
     margin: 20px auto 20px auto;
