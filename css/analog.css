@@ -19,7 +19,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: bottom;
     background: rgb(7,0,6);
-background: linear-gradient(172deg, rgba(7,0,6,1) 0%, rgb(0, 156, 173) 32%);
+    background: linear-gradient(172deg, rgba(7,0,6,1) 0%, rgb(0, 156, 173) 32%);
 }
 #logo{
     width: 250px;
@@ -30,11 +30,14 @@ ul{
     width: 550px;
     padding: 20px;
     margin: 0px auto 0px auto;
-    border-top: 2px solid #e8d9d9;
-    border-bottom: 1px solid #e8d9d9;
+    border-top: 5px solid #e8d9d9;
+    border-bottom: 2px solid #e8d9d9;
+    border-left: 2px solid #e8d9d9;
+    border-right: 2px solid #e8d9d9;
     text-align: center;
     display: flex;
     justify-content: center;
+    filter: drop-shadow(5px 5px 6px);
 }
 li{
     font-size: 15px;
@@ -69,6 +72,7 @@ a:hover, a.on{
     height: 150px;
     margin-top: 40px;
     margin-bottom: 10px;
+    filter: drop-shadow(10px 10px 5px rgb(5, 230, 255));
 }
 .logoimg{
     width: 250px;
