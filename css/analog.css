@@ -54,9 +54,9 @@ p{
     color: #f5f1f1;
 }
 .p1{
-    margin-top: 80px;
+    margin-top: 60px;
     font-size: 19px;
-    z-index: 1;
+    text-align: center;
 }
 a{
     color:#f5f1f1;
@@ -65,16 +65,21 @@ a{
     padding: 6px 10px;
 }
 a:hover, a.on{
-    color:#f73636;
+    color:#e30a0a;
 }
 .img2{
     width: 600px;
     height: 150px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     filter: drop-shadow(10px 10px 5px rgb(5, 230, 255));
+    border-radius: 3%;
 }
 .logoimg{
     width: 250px;
     height: 150px;
+}
+.p2{
+    font-size: 17px;
+    margin-bottom: 10px;
 }
